@@ -8,6 +8,8 @@ Then send a Teams message to Target account. User can accept, decline or ignore 
 
 Flow updates and deletes meetings to keep the Target Calendar up to date.
 
+![image](https://user-images.githubusercontent.com/22662809/128931960-d9435bff-84ba-4c63-a436-2109d2d3f81f.png)
+
 ## Installation
 
 1.  Download the included Zip file.
