@@ -16,5 +16,15 @@ Flow updates and deletes meetings to keep the Target Calendar up to date.
 2.  Go to make.powerapps.com 
 3.  Click on the Solutions tab
 4.  Select the "Import Solution" button
-5.  Run through the set up: _Source_ must be the account to sync with the _Target_ account.
+5.  Run through the set up _(refer to [Configuration](#configuration))_
 6.  Your solution is ready to use!
+
+## Configuration {#configuration}
+
+| Name | Type | Description |
+|---|---|---|
+| Office 365 Outlook Source | Connection Reference | Outlook account who received meeting to be synchronized |
+| Office 365 Outlook Target | Connection Reference | Outlook account where meetings are copied |
+| SyncCalendar-SourceEmail  | Environment Variable | Email of _Source_ account |
+| SyncCalendar-TargetEmail  | Environment Variable | Email of _Target_ account |
+| SyncCalendar-Prefix       | Environment Variable | Prefix to add in the copied Title meeting |
