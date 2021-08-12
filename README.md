@@ -19,7 +19,7 @@ Flow updates and deletes meetings to keep the Target Calendar up to date.
 5.  Run through the set up _(refer to [Configuration](#configuration))_
 6.  Your solution is ready to use!
 
-## Configuration {#configuration}
+## Configuration
 
 | Name | Type | Description |
 |---|---|---|
